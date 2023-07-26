@@ -1,0 +1,228 @@
+/* styles.css */
+.body-customer {
+  width: 1150px;
+  height: fit-content;
+  margin: 0px auto;
+}
+
+.main {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding: 90px 0 90px 0;
+  background-color: rgb(52, 216, 235);
+  height: 900px;
+}
+
+.sub-main {
+  display: flex;
+  justify-content: center;
+  height: 550px;
+  width: 35%;
+  box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
+  padding-top: 30px;
+  border-radius: 60px;
+  background-color: white;
+}
+
+.imgs {
+  padding-top: 20px;
+  justify-content: center;
+  display: flex;
+}
+
+.container-image {
+  background-color: rbg(223, 221, 221);
+  border-radius: 150px;
+  align-items: center;
+  display: flex;
+  height: 115px;
+  width: 115px;
+}
+
+.profile {
+  height: 100px;
+  width: 100px;
+  border-radius: 130px;
+}
+
+input {
+  width: 300px;
+  height: 50px;
+  border-radius: 60px;
+  box-shadow: inset 0px 0px 25px 0px #888;
+  border: none;
+  outline: none;
+  background-color: #fff;
+}
+
+.email {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  padding: 14px 0 0 25px;
+}
+
+.pass {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  padding: 14px 0 0 25px;
+}
+
+.name {
+  padding-left: 70px;
+  font-size: 20;
+}
+
+.name9 {
+  text-align: center;
+}
+
+
+
+
+.form11 {
+  table-layout: center;
+}
+
+.body-admin {
+  background-color: rgb(52, 216, 235);
+  width: 1700;
+  height: 1000px;
+  margin: 0px auto;
+
+}
+
+.text-center1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.product {
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.name11 {
+  text-align: right;
+}
+
+.name1 {
+  text-align: center;
+}
+
+div.inline {
+  display: inline-block;
+}
+
+figure.caption-right {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.text-center {
+  text-decoration: underline;
+}
+
+
+
+span.link {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+
+/* menu.css */
+div.border-bottom {
+  border-bottom: 1px solid black;
+  padding: 10px 0px 10px 0px;
+}
+
+div.float-left {
+  float: left;
+}
+
+div.float-right {
+  float: right;
+}
+
+div.float-clear {
+  clear: both;
+}
+
+ul.menu {
+  margin: 10px;
+  padding: 0px;
+
+}
+
+li.menu {
+  display: inline;
+  margin-right: 20px;
+  text-transform: uppercase;
+
+}
+
+form.search {
+  margin: 0px;
+}
+
+input.keyword {
+  width: 110px;
+}
+
+.datatable1 {
+  border: 1;
+}
+
+/* datatable.css */
+.datatable {
+  text-align: center;
+
+}
+
+.datatable2 {
+  color: black;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+/* header */
+tr:first-child.datatable {
+  background-color: #fff;
+  text-align: center;
+  border-top: 1px;
+  border-bottom: 1px;
+  border-collapse: collapse;
+}
+
+/* even rows, except header chinh mày */
+tr:not(:first-child):nth-child(even).datatable {
+  background-color: rgb(248, 248, 248);
+  border-top: 1px;
+  border-bottom: 1px;
+  border-collapse: collapse;
+}
+
+/* odd rows, except header la mày cái bảng */
+tr:not(:first-child):nth-child(odd).datatable {
+  background-color: rgb(252, 252, 252);
+  border-top: 1px;
+  border-bottom: 1px;
+  border-collapse: collapse;
+}
+
+/* except header */
+tr:not(:first-child):hover.datatable {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  border-top: 1px;
+  border-bottom: 1px;
+  border-collapse: collapse;
+}
